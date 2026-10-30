@@ -12,9 +12,10 @@ const example3 = (req, res) => {
 
 const getSongs = (req, res) => {
   res.json([
-    { artist: 'Rick Astley', title: 'Never Gonna Give You Up' },
-    { artist: 'Washed Out', title: 'Feel It All Around' },
-    { artist: 'Men I Trust', title: 'Show Me How' },
+    { artist: 'The Walters', title: 'I Love You So' },
+    { artist: 'The Backseat Lovers', title: 'Pool House' },
+    { artist: 'daniel.mp3', title: 'green to blue' },
+    { artist: 'Izzamusic, Julien Marchal', title: 'Shootout' },
   ]);
 };
 
